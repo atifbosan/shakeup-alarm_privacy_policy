@@ -1,6 +1,6 @@
 # Terms of Service — Ringuru
 
-**Effective date:** 9 November 2026
+**Effective date:** 11 November 2026
 
 These Terms of Service ("Terms") apply to **Ringuru** (formerly *ShakeUp Alarm*), the mobile app for Android and iOS, and to the online Family sharing service that comes with it (together, the "App"), published by **Terabittec** ("we", "us", "our"). By downloading or using the App you agree to these Terms. If you do not agree, please do not use the App.
 
@@ -12,18 +12,19 @@ Ringuru is a personal alarm and reminder tool. It lets you:
 - add optional challenges (such as a math problem or shaking the phone) before a ring can be stopped;
 - keep a personal log and export it as a PDF or Excel file;
 - save and restore a backup file;
-- optionally share chosen reminders and alarms with a family group (see section 3).
+- optionally share chosen reminders and alarms with a family group (see section 3);
+- optionally back up your log to your own account, so it comes back on a new phone.
 
 You can use every personal feature without an account.
 
 ## 2. Your data
 
-Without an account, everything you enter is stored **only on your device**. If you use Family sharing, the reminders and alarms you choose to share, and their Done / Skip history, are stored on our server so your family can see them. Your personal log is never uploaded. We do not sell your data or show ads.
+Without an account, everything you enter is stored **only on your device**. If you use Family sharing, the reminders and alarms you choose to share, and their Done / Skip history, are stored on our server so your family can see them. If you are signed in and Log backup is on, a private copy of your log is stored on our server so it comes back when you change phones; only you can see it, and you can turn it off in Settings. We do not sell your data or show ads.
 
 Details are in our Privacy Policy:
 <https://github.com/atifbosan/shakeup-alarm_privacy_policy/blob/main/Privacy_Policy.md>
 
-## 3. Accounts and Family sharing
+## 3. Accounts, Family sharing and Log backup
 
 - **Signing in.** Family sharing requires signing in with Apple or Google. Your use of those sign-in services is also covered by Apple's and Google's own terms. You are responsible for keeping access to your Apple or Google account secure.
 - **What others can see.** When you share a reminder or alarm with a family, every member of that family can see it, its history, and your display name, and can mark it done or skip it. Only share items you are happy for them to see.
@@ -31,6 +32,7 @@ Details are in our Privacy Policy:
 - **Invite codes.** Treat invite codes like a key: anyone with a valid code can join the family. Codes work once and expire after 7 days.
 - **Be considerate.** Do not use Family sharing to harass anyone or to share unlawful, offensive or misleading content. Do not join a family you were not invited to.
 - **Deleting your account.** You can delete your account at any time in the app (Settings → Family → Your account → Delete account). This removes your account and the items you shared from our server. Reminders stored on your phone stay there.
+- **Log backup.** Your log stays on your phone first; the backup copies it to your account in the background. Keep your own export (Log → Export) of anything you can't afford to lose; a backup depends on an internet connection and our server.
 - **Suspension.** We may suspend or close an account that breaks these Terms or puts the service or other people at risk.
 
 ## 4. Permissions the App asks for
