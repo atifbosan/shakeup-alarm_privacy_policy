@@ -1,6 +1,6 @@
 # Privacy Policy — Ringuru
 
-**Effective date:** 9 November 2026
+**Effective date:** 11 November 2026
 
 This Privacy Policy explains how **Ringuru** (formerly *ShakeUp Alarm*), the alarm and reminder app for Android and iOS published by **Terabittec** ("we", "us", "our"), handles your information.
 
@@ -8,12 +8,12 @@ This Privacy Policy explains how **Ringuru** (formerly *ShakeUp Alarm*), the ala
 
 - Ringuru works without an account. Used that way, everything stays on your phone.
 - If you choose to use **Family sharing**, you sign in with Apple or Google, and only the reminders and alarms **you choose to share** (and their Done / Skip history) go to our server, so your family members can see them.
-- Your personal log is never uploaded or shared.
+- If you are signed in, your log is backed up privately to your own account so it comes back on a new phone. You can turn this off in Settings. Your log is never shared with your family or anyone else.
 - We do not show ads, sell your data, or use analytics or tracking tools.
 
 ## 1. Using Ringuru without an account
 
-You can use every personal feature without signing in. The following stays on your device and never reaches us:
+You can use every personal feature without signing in. Without an account, the following stays on your device and never reaches us:
 
 - your alarms and reminders, and their settings;
 - your ring history (Done, Skip, missed rings);
@@ -22,9 +22,9 @@ You can use every personal feature without signing in. The following stays on yo
 
 Backups and PDF / Excel exports are files that **you** create and choose where to save or send. We never receive them.
 
-## 2. Family sharing (optional)
+## 2. Signing in: Family sharing and Log backup (both optional)
 
-Family sharing lets a small group of people see and complete the same reminders and alarms. To use it you must sign in. When you do, we collect and store the following on our server:
+Family sharing lets a small group of people see and complete the same reminders and alarms. Log backup keeps a private copy of your log so it comes back when you change phones. Both need you to sign in. When you do, we collect and store the following on our server:
 
 | What | Why |
 |---|---|
@@ -34,17 +34,20 @@ Family sharing lets a small group of people see and complete the same reminders 
 | **Families you create or join**: family name, members, roles (owner or member), and invite codes | To run the family and let people join with a code. |
 | **Reminders and alarms you share with a family**: title, note, timing, ring settings, whether it is on or off, and who changed it last | So every family member's phone shows the same item. |
 | **History of shared items only**: when one was marked Done or Skipped, and by whom | So everyone sees that it has been taken care of. |
+| **Your log, if Log backup is on**: log profiles (name, reading label and unit, checklist template) and log entries (time, reading, notes, meals, checklist) | So your log comes back on a new phone and stays the same on all your phones. Only you can see it. |
 | **Device information**: a random ID created by the app, platform (Android or iOS), app version, and a **push token** | To send a silent update to your other phones and your family's phones when something changes, and to show "someone marked it done" notifications. |
 | **Sign-in tokens** | To keep you signed in. We store only a scrambled (hashed) form of them. |
 
 What is **not** uploaded, even when you are signed in:
 
 - reminders and alarms you have not shared;
-- your personal log entries and log profiles;
+- your log, if you turn Log backup off (Settings → Log backup);
 - history of items that are not shared;
 - your contacts, location, photos, microphone, or any other personal files.
 
-### Who can see shared items
+### Who can see what
+
+Your log backup is visible only to you, on phones where you sign in. It is never part of a family and is never shown to anyone else.
 
 Only members of the family you shared an item with can see it. A family owner can remove members. When an item stops being shared, or a member leaves or is removed, that member's phone is told to remove it.
 
@@ -55,7 +58,7 @@ To deliver updates instantly, we use the phone's standard push services:
 - **Apple Push Notification service** on iPhone;
 - **Firebase Cloud Messaging** (a Google service) on Android, used only to deliver these messages.
 
-The messages contain a short signal that something changed and, when a family member completes a shared item, a short notice such as "Sara marked *Water plants* done". They do not contain your log or unshared items.
+The messages contain a short signal that something changed and, when a family member completes a shared item, a short notice such as "Sara marked *Water plants* done". When your log changes on one of your phones, your other phones get a silent signal to update. These messages never contain the content of your log or unshared items, and nobody else is told about your log.
 
 ## 4. Permissions
 
@@ -68,7 +71,7 @@ Ringuru only asks for what it needs to ring reliably. You can change these at an
 - **Auto-start and pop-up windows (some Android brands such as Xiaomi, optional):** so rings can open when the app is in the background.
 - **Alarms and Time Sensitive notifications (iPhone):** so rings sound in silent mode and through Focus.
 - **Motion sensors:** only to count shakes for the "Shake to stop" challenge. Motion data stays on the phone and is not stored.
-- **Internet:** only for Family sharing and sign-in.
+- **Internet:** only for sign-in, Family sharing and Log backup.
 
 ## 5. Service providers
 
@@ -87,6 +90,7 @@ Like most online services, our server keeps short technical logs when your app c
 
 - **Account and family data:** while your account exists.
 - **Shared items and their history:** until they are deleted, stop being shared, or the account that owns them is deleted.
+- **Log backup:** until you delete an entry or profile, or delete your account. Deleted log items are kept for up to 90 days so your other phones can remove them too, then erased.
 - **Device and push tokens:** until you sign out on that device, delete your account, or the push service tells us the token is no longer valid.
 - **Unused invite codes:** expire after 7 days.
 
@@ -96,6 +100,7 @@ You can delete your account at any time in the app: **Settings → Family → Yo
 
 - your account, sign-in connections, devices, and tokens;
 - the reminders and alarms you own, and their history;
+- your backed-up log;
 - your family memberships. A family you own passes to another member; a family with no other members is deleted.
 
 If you signed in with Apple, we also ask Apple to revoke Ringuru's access to your Apple ID. Items stored only on your phone stay there until you delete them or uninstall the app.
